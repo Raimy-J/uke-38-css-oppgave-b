@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="/images/favicon2.ico" type="image/x-icon">
+    <title>dancing candy tree</title>
+</head>
+<body>
+        <!-- overskiften -->
+    <div class="header_container">
+        <section class="anvil">
+            <img src="/images/anvil.gif">
+        </section>
+        <section class="overskrift">
+            <p><font size="6"><b>ACME Laboratories</font><br><font size="4">Graphics * Unix * Fun<br>Purveyors of fine freeware since 1972. On the net since 1991.</font></b></p>
+        </section>
+        <section class="atom">
+            <img src="/images/atom_ani.gif">
+        </section>
+    </div>
+
+    <!-- updates, vet ikke hvorfor det er plassert der ¯\_(ツ)_/¯ -->
+    <p align="center"><b><a href="https://acme.com/updates/">ACME Updates.</a></b></p>
+
+</div> 
+  <div class="main_container">
+    <section class="item1">
+
+        <button id="mapsbutton" onclick="maps()">ACME Labs maps</button>
+         <ul id="acme_labs_maps" style="display: block; position: relative; right: 15px;">
+         <p style="font-size: large;" id="acme_labs_maps" ><a href="https://acme.com/maps.html">ACME Labs maps</a>, including:</p>
+            <li><b>The <a href="https://mapper.acme.com">ACME Mapper</a></b></li>
+            <li><b><a href="https://acme.com/GeoRSS/">ACME GeoRSS Map Viewer</a>.</b></li>
+            <li><b><a href="https://acme.com/metro/">Paris Metro map</a>.</b></li>
+            <li><b><a href="https://acme.com/planimeter/">ACME Planimeter</a>.</b></li>
+             </ul>
+        <script>
+            function maps(){
+                const x = document.getElementById("acme_labs_maps");
+                if (x.style.display === "block"){
+                    x.style.display = "none";
+                 } else {
+                    x.style.display = "block";
+                 }
+            }
+        </script>
+
+    </section>
+    <section class="item2">
+
+        <button id="libs" onclick="lib()">ACME Labs maps</button>
+        <ul id="acme_labs_lib" style="display: block; position: relative; right: 15px;">
+        <p style="font-size: large;" id="acme_labs_lib" >The <a href="https://acme.com/software/">ACME Labs freeware library.</a></p>
+            <li><a href="https://acme.com/software/e/">e</a> - tiny EMACS-like text editor.</li>
+            <li><a href="https://acme.com/software/thttpd/">thttpd</a> - tiny/turbo/throttling web server.</li>
+            <li><a href="https://acme.com/software/mini_httpd/">mini_httpd</a> - simple web server that does HTTPS</li>
+            <li><a href="https://acme.com/software/micro_httpd/">micro_httpd</a> - world's smallest web server?</li>
+            <li><a href="https://acme.com/software/spfmilter/">spfmilter</a> - SPF mail filter module.</li>
+            <li><a href="https://acme.com/software/pbmplus/">pbmplus</a> - toolkit for converting image file formats.</li>
+            <li>The <a href="https://acme.com/software/globe/">currently-lit face of the Earth</a>, in ASCII.</li>
+            <li>The <a href="https://acme.com/software/phoon/">current phase of the Moon</a>, in ASCII.</li>
+            </ul>
+       <script>
+           function lib(){
+               const x = document.getElementById("acme_labs_lib");
+               if (x.style.display === "block"){
+                   x.style.display = "none";
+                } else {
+                   x.style.display = "block";
+                }
+           }
+       </script>
+
+    </section>
+    <section class="item3">
+
+        <button id="javabutton" onclick="java()">ACME Labs maps</button>
+        <ul id="acme_labs_java" style="display: block; position: relative; right: 15px;">
+             <p style="font-size: large;" id="acme_labs_java">The <a href="https://acme.com/javascript/">ACME JavaScript utilities</a>.<br>The <a href="https://acme.com/java/">ACME Java pages</a>. 
+            </p>
+            <li>The <a href="https://acme.com/java/software/Phoon.html/">current phase of the Moon</a>, in Java.</li>
+            <li>A <a href="https://acme.com/java/software/Acme.Fmt.html">Java printf()-equivalent</a>.</li>
+            <li>A <a href="https://acme.com/java/software/Acme.JPM.Encoders.GifEncoder.html">GIF encoder</a>!</li>
+            <li><a href="https://acme.com/java/software/Acme.Psg.html">PostScript-like graphics</a>.</li>
+            <li>A simple <a href="https://acme.com/java/software/Acme.Serve.Serve.html/">web server</a> in Java.</li>
+            </ul>
+       <script>
+           function java(){
+               const x = document.getElementById("acme_labs_java");
+               if (x.style.display === "block"){
+                   x.style.display = "none";
+                } else {
+                   x.style.display = "block";
+                }
+           }
+       </script>
+
+    </section>
+    <section class="item4">
+
+        <button id="tutbuttoon" onclick="tut()">ACME Labs maps</button>
+        <ul id="acme_labs_tut" style="display: block; position: relative; right: 15px;">
+            <p style="font-size: large;" id="acme_labs_tut" >Tutorials and resources:</p>
+            <li><b>The <a href="https://acme.com/comments/">ACME Comment Weblet</a>.</b></li>
+            <li><a href="https://acme.com/webapis/">Web API Demonstrations</a>.</li>
+            <li><a href="https://acme.com/canvas/">HTML5 Canvas</a>.</li>
+            <li><b>Learn how to <a href="https://acme.com/mail_filtering/">filter out emailed spam.</a></b></li>
+            <li>The <a href="https://acme.com/caption/">ACME Caption Maker</a>.</li>
+            <li>The <a href="https://acme.com/chartmaker/">ACME Chartmaker</a>.</li>
+            <li>The <a href="https://acme.com/annotator">ACME Annotator</a>.</li>
+            <li><a href="https://acme.com/twitter/twoday">Twoday</a>, shows you what you tweeted on this day in past
+            years.</li>
+            <li>Learn how to <a href="https://acme.com/firewall.html">set up a FreeBSD firewall</a>.</li>
+            <li>An <a href="https://acme.com/html_samples.html">HTML sampler</a>, and a <a
+                href="https://acme.com/colormap.html">colormap sampler</a>.</li>
+            <li><a href="https://acme.com/unicode/">Unicode characters</a>.</li>
+        <ul>
+            <li><a href="https://acme.com/unicode/transformations.html">Unicode Transformations</a></li>
+            <li><a href="https://acme.com/unicode/decode.html">Unicode Decoder</a></li>
+        </ul>
+            <li><a href="https://acme.com/onemonth/">One Month</a>, a single calendar page.</li>
+            </ul>
+       <script>
+           function tut(){
+               const x = document.getElementById("acme_labs_tut");
+               if (x.style.display === "block"){
+                   x.style.display = "none";
+                } else {
+                   x.style.display = "block";
+                }
+           }
+       </script>
+
+    </section>
+    <section class="item5">
+
+        <button id="toybutton" onclick="toy()">ACME Labs maps</button>
+        <ul id="acme_labs_toy" style="display: block; position: relative; right: 15px;">
+        <p style="font-size: large;" id="acme_labs_toy">Toys and amusements:</p>
+            <li>The <a href="https://acme.com/labelmaker/">ACME Label Maker</a>.</li>
+            <li>The <a href="https://acme.com/licensemaker/">ACME License Maker</a></li>
+            <li>Just for Valentine's Day: the <a href="https://acme.com/heartmaker/">ACME Heart Maker</a>.</li>
+            <li>The <a href="https://acme.com/chumaker">ACME ChuMaker</a>.</li>
+            <li>The <a href="https://acme.com/chocolate/">ACME Chocolate Registry</a>.</li>
+            <li><a href="https://acme.com/calendar/">ACME Labs Calendar.</a></li>
+            </ul>
+       <script>
+           function toy(){
+               const x = document.getElementById("acme_labs_toy");
+               if (x.style.display === "block"){
+                   x.style.display = "none";
+                } else {
+                   x.style.display = "block";
+                }
+           }
+       </script>
+
+    </section>
+</div>  
+
+<style>
+    .main_container{
+        display: grid;
+        row-gap: 1px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "item" ;
+        background-color: #171717;
+        padding: 4px;
+        text-align: center;
+    }
+
+    .header_container{
+        display: grid;
+        row-gap: 1px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "item" ;
+        padding: 4px;
+        text-align: center;
+    }
+
+    .anvil{
+        
+        
+        padding: 20px;
+    }
+
+    .overskrift{
+        
+    
+        padding: 20px;
+    }
+
+    .atom{
+        
+       
+        padding: 20px;
+    }
+
+
+
+
+    .item1{
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 0px solid black;
+        padding: 20px;
+        
+    }
+
+    .item2{
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 0px solid black;
+        padding: 20px;
+    }
+
+    .item3{
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 0px solid black;
+        padding: 20px;
+    }
+
+    .item4{
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 0px solid black;
+        padding: 20px;
+    }
+
+    .item5{
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 0px solid black;
+        padding: 20px;
+    }
+</style>
+
+
+</body>
+</html>
